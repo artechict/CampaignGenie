@@ -144,7 +144,7 @@ const App: React.FC = () => {
 
       <footer className="bg-white border-t border-slate-200 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-400 text-sm">
-          &copy; {new Date().getFullYear()} {t.appName}. Built with Gemini 3 Pro.
+          &copy; {new Date().getFullYear()} {t.appName}. Built by <a href="https://artechict.pages.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors font-bold">Artech</a>.
         </div>
       </footer>
 
